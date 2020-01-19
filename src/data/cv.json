@@ -1,0 +1,126 @@
+{
+	"name": "Sylvain Dubus",
+	"status": "Développeur web full-stack",
+	"yearOfExperience": 10,
+	"age": 30,
+	"mail": "svn.dbs@gmail.com",
+	"linkedin": "https://www.linkedin.com/in/sylvain-dubus-b10b862a",
+	"github": "https://github.com/sylvaindubus",
+	"skillGroups": [
+		{
+			"title": "Développement front-end",
+			"skills": [
+				"React", "Svelte", "JavaScript ES6/7", "jQuery", "HTML5", "CSS3", "PostCSS", "SaSS"
+			]
+		}, {
+			"title": "Développement back-end",
+			"skills": [
+				"PHP", "Go", "Python", "NodeJS", "API REST & GraphQL"
+			]
+		}, {
+			"title": "Librairies",
+			"skills": [
+				"Highcharts", "Mapbox", "Three.JS", "wkhtmltopdf", "PHPExcel", "Robo PHP"
+			]
+		}, {
+			"title": "Frameworks & CMS",
+			"skills": [
+				"Next.js", "CodeIgniter", "WordPress", "WooCommerce", "Prestashop"
+			]
+		}, {
+			"title": "Base de données",
+			"skills": [
+				"MySQL", "MariaDB", "Postgre", "SQLite"
+			]
+		}, {
+			"title": "Outils et suivi de développement",
+			"skills": [
+				"Webpack", "Git", "Grunt", "Gulp", "Jest", "Intern", "Codeception", "JIRA", "Redmine"
+			]
+		}, {
+			"title": "Environnement",
+			"skills": [
+				"Docker", "Gitlab CI", "Bash", "Debian", "Ubuntu", "Apache", "Nginx"
+			]
+		}
+	],
+	"languages": [
+		{
+			"name": "Français",
+			"level": "Langue maternelle"
+		}, {
+			"name": "Anglais",
+			"level": "Courant"
+		}, {
+			"name": "Espagnol",
+			"level": "Niveau scolaire"
+		}
+	],
+	"hobbies": "La course à pied, les road-trips, l'escrime et la reconstitution médiévale, les nouvelles technologies, le fromage, la bière.",
+	"experiences": [
+		{
+			"title": "Lead technique front-end (Freelance)",
+			"date": "Juin 2018 - Fév 2020",
+			"company": "PRISMA MEDIA - Premier groupe de presse en France",
+			"points": [
+				"Prise en charge technique de l'équipe front-end du pôle Féminin",
+				"Développement, optimisation et amélioration des sites Femme Actuelle, Cuisine Actuelle et Beauté Addict (Symfony, Twig, ES6, PostCSS)",
+				"Développement de l'application Video Channel pour la lecture des vidéos de plusieurs marques du groupe (React, Next.JS, GraphQL, PostCSS)",
+				"Développement de l'application web Elisa pour la consulation des magazines en ligne (React, PostCSS)"
+			]
+		}, {
+			"title": "Lead développeur full-stack (CDI)",
+			"date": "Sept 2015 - Juin 2018",
+			"company": "GLOBALIS - ESN spécialisée sur les plate-formes PHP et WordPress",
+			"points": [
+				"Réalisation d’un outil de création de devis pour la société Videlio et lead d'une équipe de 3 développeurs (React, CodeIgniter, Codeception, SaSS)",
+				"Réalisation d’un portail facture client pour la société Guinot Mary Cohr et lead d'une équipe de 2 développeurs (React, CodeIgniter, Docker, SaSS)",
+				"Développement et gestion de projet sur un extranet pour l’emploi et la formation dans l’industrie pour l'OPCA DEFi en encadrant une équipe de 3 à 4 développeurs (Framework PHP Carbone)"
+			]
+		}, {
+			"title": "Développeur en microentreprise",
+			"date": "Depuis juillet 2015",
+			"points": [
+				"Réalisation d’un site vitrine pour une agence immobilière haut de gamme Barnes Immeubles (WordPress Roots, jQuery, SaSS)",
+				"Réalisation d’une application de cartographie pour de la gestion de régie publicitaire pour la société GreenPub (MapBox, CodeIgniter, PHPExcel, jQuery, SaSS)",
+				"Réalisation d’une boutique en ligne pour le retaurant japonais IT'SUSHI (WordPress avec WooCommerce, jQuery)",
+				"Réalisation d’un site vitrine avec back-office modulaire pour l'agence CoAndCo (CodeIgniter, jQuery)"
+			]
+		}, {
+			"title": "Développeur full-stack (régie pour GLOBALIS)",
+			"date": "Fév 2011 - Sept 2015",
+			"company": "GROUPE PSA - Constructeur automobile français",
+			"points": [
+				"Réalisation d’une borne interactive pour des salons automobiles (Highcharts, jQuery, HTML Canvas)",
+				"Réalisation d’une appli cartographie pour le pôle immobilier PSA (OpenStreetMap, jQuery, PHPExcel)",
+				"Développement du nouveau configurateur PRO Peugeot et Citroën (HTML5/CSS3, JavaScript)",
+				"Mise en place d’un outil de type intranet de gestion d’activité (CodeIgniter, jQuery, TCPDF, jpgraph)",
+				"Développement sur différents sites du groupe : Peugeot RCZ Racing Cup, Peugeot Sport Store, Citroën Racing, Peugeot Sport, Peugeot Media (Framework PHP Carbine, jQuery, Prestashop",
+				"Réaliation d'applications bureaux pour traitement d'images 3D : tri, superposition et retouches automatiques (Python, QT)"
+			]
+		}, {
+			"title": "Développeur full-stack (alternance)",
+			"date": "Sept 2009 - Oct 2010",
+			"company": "ENJOYOURPARIS - Réseau social sur le tourisme à Paris",
+			"points": [
+				"Développement et maintenance sur le site EnjoYourParis (PHP5, jQuery)"
+			]
+		}
+	],
+	"diplomas": [
+		{
+			"title": "Master en ingénierie informatique",
+			"subtitle": "SUPINFO Paris - 2013 à 2015"
+		}, {
+			"title": "Licence pro en systèmes informatiques et logiciels",
+			"subtitle": "IUT Fontainebleau - 2009 à 2010"
+		}, {
+			"title": "DUT Informatique",
+			"subtitle": "IUT Amiens - 2007 à 2009"
+		}, {
+			"title": "Baccalauréat S",
+			"subtitle": "Lycée Charles de Gaulle à Compiègne - 2007"
+		}
+
+	]
+}
