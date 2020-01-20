@@ -2,7 +2,7 @@
 	export let title, date, company, points;
 </script>
 
-<section class="wrapper">
+<div class="wrapper">
 	<header class="header">
 		<h3 class="title">{title}</h3>
 		<time class="date">{date}</time>
@@ -13,7 +13,7 @@
 		<li>{point}</li>
 	{/each}
 	</ul>
-</section>
+</div>
 
 <style>
 	.wrapper {
@@ -27,16 +27,15 @@
 
 	.title {
 		margin: 0;
-		color: #ff3e00;
-		font-size: 1em;
+		color: var(--color-main);
+		font-size: var(--fontSize-md);
 		font-weight: 600;
 		text-transform: uppercase;
 	}
 
 	.date {
-		font-size: 0.9em;
-		font-weight: 400;
-		color: #ff3e00;
+		font-size: var(--fontSize-sm);
+		color: var(--color-main);
 	}
 
 	.company {
@@ -47,7 +46,7 @@
 	.list {
 		margin: 0 0 5px;
 		padding-left: 15px;
-		font-size: 0.9em;
+		font-size: var(--fontSize-sm);
 	}
 
 	@media (min-width: 768px) {

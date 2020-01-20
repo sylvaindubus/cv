@@ -2,10 +2,10 @@
 	export let title, subtitle;
 </script>
 
-<section class="wrapper">
+<div class="wrapper">
 	<h3 class="title">{title}</h3>
 	<p class="info">{subtitle}</p>
-</section>
+</div>
 
 <style>
 	.wrapper {
@@ -14,8 +14,8 @@
 
 	.title {
 		margin: 0;
-		color: #ff3e00;
-		font-size: 1em;
+		color: var(--color-main);
+		font-size: var(--fontSize-md);
 		font-weight: 600;
 		text-transform: uppercase;
 	}

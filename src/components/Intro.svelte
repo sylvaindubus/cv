@@ -25,16 +25,16 @@
 
 	.name {
 		margin: 0;
-		color: #ff3e00;
+		color: var(--color-main);
 		text-transform: uppercase;
-		font-size: 1.6em;
+		font-size: var(--fontSize-xl);
 		font-weight: 200;
 	}
 
 	.status,
 	.experience {
 		margin: 0;
-		font-size: 1.3em;
+		font-size: var(--fontSize-lg);
 		font-weight: 200;
 	}
 </style>

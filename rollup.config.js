@@ -6,6 +6,7 @@ import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import json from '@rollup/plugin-json';
 import alias from '@rollup/plugin-alias';
+import postcss from 'rollup-plugin-postcss'
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -60,7 +61,9 @@ export default {
           replacement: path.resolve(path.resolve(__dirname), 'src')
         }
       ]
-		})
+		}),
+
+		postcss()
 	],
 	watch: {
 		clearScreen: false

@@ -2,21 +2,20 @@
 	export let title, skills;
 </script>
 
-<section class="wrapper">
+<div class="wrapper">
 	<h3 class="title">{title}</h3>
 	<p class="info">{skills.join(', ')}</p>
-</section>
+</div>
 
 <style>
 	.wrapper {
-		text-align: left;
 		margin-bottom: 10px;
 	}
 
 	.title {
 		margin: 0;
 		font-weight: 600;
-		font-size: 1em;
+		font-size: var(--fontSize-md);
 	}
 
 	.info {

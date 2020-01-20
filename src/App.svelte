@@ -1,6 +1,10 @@
 <script>
+	import 'src/styles/vars.css';
+	import 'src/styles/global.css';
+
 	import data from 'src/data/cv.json';
 	import labels from 'src/data/labels.json';
+
 	import Intro from 'src/components/Intro.svelte';
 	import Social from 'src/components/Social.svelte';
 	import SkillGroup from 'src/components/SkillGroup.svelte';
@@ -54,22 +58,22 @@
 
 	.intro {
 		margin: 0 -20px;
-		background: url('/images/background.png');
+		background: var(--background-column);
 	}
 
 	.social {
 		margin: 0 -20px;
 		padding: 10px;
-		background: url('/images/background.png');
+		background: var(--background-column);
 	}
-	
+
 	.sectionTitle {
 		margin: 0 -20px 10px;
 		padding: 3px;
-		font-size: 1.2em;
+		font-size: var(--fontSize-lg);
 		font-weight: 200;
-		color: #fff;
-		background-color: #ff3e00;
+		color: var(--color-white);
+		background-color: var(--color-main);
 		text-align: center;
 	}
 
@@ -88,8 +92,8 @@
 			max-height: 1350px;
 			margin: 0 auto;
 			padding: 0;
-			background: url('/images/background.png') no-repeat;
-			background-size: 280px 100%;
+			background: var(--background-column) no-repeat;
+			background-size: var(--width-column) 100%;
 		}
 
 		.wrapper > * {
@@ -103,12 +107,12 @@
 		.languages,
 		.hobbies {
 			margin: 0;
-			width: 280px;
+			width: var(--width-column);
 		}
 
 		.experiences,
 		.diplomas {
-			width: calc(100% - 280px);
+			width: calc(100% - var(--width-column));
 		}
 
 		.intro {
@@ -150,21 +154,21 @@
 			width: 100%;
 			height: 1px;
 			margin: 15px 0;
-			background-color: #ff3e00;
+			background-color: var(--color-main);
 			opacity: .5;
 		}
 
 		.sectionTitle {
 			margin: 0 0 10px;
 			padding: 0;
-			color: #ff3e00;
+			color: var(--color-main);
 			background-color: transparent;
 		}
 
 		.sectionTitle.big {
 			margin-top: 10px;
 			text-align: left;
-			font-size: 1.6em;
+			font-size: var(--fontSize-xl);
 			text-transform: uppercase;
 		}
 	}

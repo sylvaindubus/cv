@@ -15,7 +15,7 @@
 		padding: 0;
 		text-align: left;
 		list-style: none;
-		font-size: 1em;
+		font-size: var(--fontSize-md);
 	}
 
 	.name {
