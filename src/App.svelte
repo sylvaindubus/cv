@@ -1,5 +1,6 @@
 <script>
 	import data from 'src/data/cv.json';
+	import labels from 'src/data/labels.json';
 	import Intro from 'src/components/Intro.svelte';
 	import Social from 'src/components/Social.svelte';
 	import SkillGroup from 'src/components/SkillGroup.svelte';
@@ -17,29 +18,29 @@
 		<Social mail="{data.mail}" linkedin="{data.linkedin}" github="{data.github}" />
 	</section>
 	<section class="experiences">
-		<h2 class="sectionTitle big">Expériences</h2>
+		<h2 class="sectionTitle big">{labels.experienceTitle}</h2>
 		{#each data.experiences as exp}
 			<Experience title={exp.title} date={exp.date} company={exp.company} points={exp.points} />
 		{/each}
 	</section>
 	<section class="diplomas">
-		<h2 class="sectionTitle big">Formation</h2>
+		<h2 class="sectionTitle big">{labels.diplomasTitle}</h2>
 		{#each data.diplomas as diploma}
 			<Diploma title={diploma.title} subtitle={diploma.subtitle} />
 		{/each}
 	</section>
 	<section class="skills">
-		<h2 class="sectionTitle">Compétences techniques</h2>
+		<h2 class="sectionTitle">{labels.skillsTitle}</h2>
 		{#each data.skillGroups as skillGroup}
 			<SkillGroup title={skillGroup.title} skills={skillGroup.skills} />
 		{/each}
 	</section>
 	<section class="languages">
-		<h2 class="sectionTitle">Langues</h2>
+		<h2 class="sectionTitle">{labels.languageTitle}</h2>
 		<Languages languages={data.languages} />
 	</section>
 	<section class="hobbies">
-		<h2 class="sectionTitle">Dans la vraie vie</h2>
+		<h2 class="sectionTitle">{labels.hobbiesTitle}</h2>
 		<Hobbies hobbies={data.hobbies} />
 	</section>
 </main>
