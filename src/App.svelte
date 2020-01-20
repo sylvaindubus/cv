@@ -106,23 +106,9 @@
 			width: 280px;
 		}
 
-		.intro::after,
-		.social::after,
-		.skills::after,
-		.languages::after {
-			content: '';
-			display: block;
-			width: 100%;
-			height: 1px;
-			margin: 15px 0;
-			background-color: #ff3e00;
-			opacity: .5;
-		}
-
-		.hobbies::after {
-			content: '';
-			display: block;
-			height: 15px;
+		.experiences,
+		.diplomas {
+			width: calc(100% - 280px);
 		}
 
 		.intro {
@@ -135,7 +121,6 @@
 
 		.skills {
 			order: 3;
-			width: 280px;
 		}
 
 		.languages {
@@ -144,17 +129,29 @@
 
 		.hobbies {
 			order: 5;
-			flex-grow: 1;
+			margin-bottom: 10px;
 		}
 
 		.experiences {
 			order: 6;
-			width: calc(100% - 280px);
 		}
 
 		.diplomas {
 			order: 7;
-			width: calc(100% - 280px);
+			margin-bottom: 10px;
+		}
+
+		.intro::after,
+		.social::after,
+		.skills::after,
+		.languages::after {
+			content: '';
+			display: block;
+			width: 100%;
+			height: 1px;
+			margin: 15px 0;
+			background-color: #ff3e00;
+			opacity: .5;
 		}
 
 		.sectionTitle {
