@@ -89,7 +89,7 @@
 			flex-flow: column wrap;
 			max-width: 760px;
 			min-height: 100%;
-			max-height: 1350px;
+			max-height: 1600px;
 			margin: 0 auto;
 			padding: 0;
 			background: var(--background-column) no-repeat;
