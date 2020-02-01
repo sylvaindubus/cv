@@ -83,12 +83,17 @@
 		}
 	}
 
+	@media print {
+		.wrapper {
+			width: 80%;
+		}
+	}
+
 	@media print, (min-width: 768px) {
 		.wrapper {
 			display: flex;
 			flex-flow: column wrap;
-			max-width: 760px;
-			min-height: 100%;
+			max-width: 900px;
 			max-height: 1600px;
 			margin: 0 auto;
 			padding: 0;
