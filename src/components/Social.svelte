@@ -40,7 +40,7 @@
 		display: none;
 	}
 
-	@media print {**
+	@media print {
 		.link {
 			display: none;
 		}
