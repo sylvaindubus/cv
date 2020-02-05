@@ -1,0 +1,147 @@
+{
+	"name": "Sylvain Dubus",
+	"status": "Full-Stack Developer",
+	"yearOfExperience": 10,
+	"age": 30,
+	"mail": "svn.dbs@gmail.com",
+	"linkedin": "https://www.linkedin.com/in/sylvain-dubus-b10b862a",
+	"github": "https://github.com/sylvaindubus",
+	"skillGroups": [
+		{
+			"title": "Front-End Developer",
+			"skills": [
+				"React", "Svelte", "JavaScript ES6/7", "jQuery", "HTML5", "CSS3", "PostCSS", "SaSS"
+			]
+		}, {
+			"title": "Back-End Development",
+			"skills": [
+				"PHP", "Go", "Python", "NodeJS", "API REST & GraphQL"
+			]
+		}, {
+			"title": "Librairies",
+			"skills": [
+				"Highcharts", "Mapbox", "Three.JS", "wkhtmltopdf", "PHPExcel", "Robo PHP"
+			]
+		}, {
+			"title": "Frameworks & CMS",
+			"skills": [
+				"Next.js", "CodeIgniter", "WordPress", "WooCommerce", "Prestashop"
+			]
+		}, {
+			"title": "Database",
+			"skills": [
+				"MySQL", "MariaDB", "Postgre", "SQLite"
+			]
+		}, {
+			"title": "Outils et suivi de développement",
+			"skills": [
+				"Webpack", "Git", "Grunt", "Gulp", "Jest", "Intern", "Codeception", "JIRA", "Redmine"
+			]
+		}, {
+			"title": "Environnement",
+			"skills": [
+				"Docker", "Gitlab CI", "Bash", "Debian", "Ubuntu", "Apache", "Nginx"
+			]
+		}
+	],
+	"languages": [
+		{
+			"name": "Français",
+			"level": "Langue maternelle"
+		}, {
+			"name": "Anglais",
+			"level": "Courant"
+		}, {
+			"name": "Espagnol",
+			"level": "Niveau scolaire"
+		}
+	],
+	"hobbies": "La course à pied, les road-trips, l'escrime et la reconstitution médiévale, les nouvelles technologies, le fromage, la bière.",
+	"diplomas": [
+		{
+			"title": "Master en ingénierie informatique",
+			"subtitle": "SUPINFO Paris - 2013 à 2015"
+		}, {
+			"title": "Licence pro en systèmes informatiques et logiciels",
+			"subtitle": "IUT Fontainebleau - 2009 à 2010"
+		}, {
+			"title": "DUT Informatique",
+			"subtitle": "IUT Amiens - 2007 à 2009"
+		}, {
+			"title": "Baccalauréat S",
+			"subtitle": "Lycée Charles de Gaulle à Compiègne - 2007"
+		}
+	],
+	"experiences": [
+		{
+			"title": "Lead développeur front-end (Freelance)",
+			"date": "Juin 2018 - Fév 2020",
+			"company": "PRISMA MEDIA - Premier groupe de presse en France",
+			"context": "au sein d'une équipe d'une quinzaine de développeurs, référent technique front-end sur un pôle de 3 développeurs sur des projets à fort trafic en Symfony et applications en React",
+			"points": [
+				"Choix technique sur les nouvelles fonctionnalités : méthode de développement, technologies utilisées",
+				"Cadrage et chiffrage des projets",
+				"Intégration de maquettes Sketch en relation avec une équipe UX",
+				"Intégration de templates Twig en composants fonctionnels",
+				"Développement front-end React sur de nouvelles applications et JavaScript natif sur les applications en TMA",
+				"Optimisation des performances de l'existant, refactoration de code, mise en place d'outils pour l'intégration et le déploiement continus",
+				"Mise en place de tests unitaires et fonctionnels, revue de code et pair programming",
+				"Ajout d'outil de qualité de code et de monitoring",
+				"Versioning avec Git"
+			],
+			"env": "HTML, CSS (PostCSS), JavaScript (ES6/7), React, Next.js, Webpack, Symfony, Twig, GraphQL, Jest, Intern, Speedcurve, GitLab, Redmine, Kanban"
+		}, {
+			"title": "Lead développeur full-stack (CDI)",
+			"date": "Sept 2015 - Juin 2018",
+			"company": "GLOBALIS - ESN spécialisée sur les plate-formes PHP et WordPress",
+			"context": "dans une société d'une trentaine de développeurs, lead développeur d'une équipe de 4 personnes sur des extranets pour des sociétés externes",
+			"points": [
+				"Conception technique et fonctionnelle sur les nouveaux projets, choix des technologies utilisées",
+				"Cadrage et chiffrage des projets, présentation des nouvelles fonctionnalités, organisation du travail de l'équipe sur chaque sprint, formation technique des profils juniors de l'équipe",
+				"Mise en place des solutions en lien direct avec les product owners des sociétés clientes",
+				"Développement front-end React sur les nouveaux projets, développement full-stack sur les applications en TMA",
+				"Déploiement des applications, amélioration des sauvegardes des données sensibles",
+				"Mise en place de l'infrastructure de certains projets avec Docker",
+				"Ajout de tests unitaires et fonctionnels",
+				"Versioning avec Git"
+			],
+			"env": "HTML, CSS (SaSS), JavaScript (ES6/7), React, Webpack, PHP, MySQL, Docker, Codeception, Scrum"
+		}, {
+			"title": "Développeur en micro-entreprise et en bénévole",
+			"date": "Depuis juillet 2015",
+			"context": "développement de plusieurs applications pour différents clients",
+			"points": [
+				"Site vitrine pour l'association sportive OSM 1453 à l'Isle-Adam",
+				"Site vitrine pour une agence immobilière haut de gamme Barnes Immeubles",
+				"Application de cartographie pour de la gestion de régie publicitaire pour la société GreenPub",
+				"Boutique en ligne pour le restaurant japonais IT'SUSHI",
+				"Site vitrine avec back-office modulaire pour l'agence CoAndCo"
+			],
+			"env": "HTML, CSS (SaSS), JavaScript (ES6), React, jQuery, Webpack, WordPress, WooCommerce, PHP, CodeIgniter, MySQL, MapBox, PHPExcel, GitLab"
+		}, {
+			"title": "Développeur full-stack (régie pour GLOBALIS)",
+			"date": "Fév 2011 - Sept 2015",
+			"company": "GROUPE PSA - Constructeur automobile français",
+			"context": "au sein d'une équipe d'une dizaine de développeurs et webdesigners, développeur full-stack sur plusieurs types de projets : application web, application pour borne interactive, intranet de gestion, boutique en ligne, outil de retouche d'images",
+			"points": [
+				"Conception technique sur les nouvelles fonctionnalités, choix sur l'environnement technique des nouveaux projets",
+				"Travail en équipe au sein d'un pôle de développement web",
+				"Cadrage et formation d'un développeur junior",
+				"Intégration des maquettes Photoshop avec une équipe de webdesigner",
+				"Développement full-stack avec PHP et jQuery",
+				"Mise en place d’un outil de type intranet de gestion d’activité"
+			],
+			"env": "HTML, CSS, JavaScript, jQuery, PHP, CodeIgniter, Prestashop, MySQL, Python, TCPDF"
+		}, {
+			"title": "Développeur full-stack (alternance)",
+			"date": "Sept 2009 - Oct 2010",
+			"company": "ENJOYOURPARIS - Réseau social sur le tourisme à Paris",
+			"points": [
+				"Développement full-stack en PHP et jQuery sur l'application web de la société",
+				"Conception technique sur les nouvelles fonctionnalités",
+				"Travail en autonomie sur la partie technique"
+			],
+			"env": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, SVN"
+		}
+	]
+}
