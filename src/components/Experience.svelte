@@ -1,5 +1,5 @@
 <script>
-	export let title, date, company, points;
+	export let title, date, company, context, points, env;
 </script>
 
 <div class="wrapper">
@@ -8,11 +8,17 @@
 		<time class="date">{date}</time>
 	</header>
 	<p class="company">{company || ''}</p>
+	{#if context}
+		<p class="context"><strong>Contexte : </strong>{context}</p>
+	{/if}
 	<ul class="list">
 	{#each points as point}
 		<li>{point}</li>
 	{/each}
 	</ul>
+	{#if env}
+		<p class="env"><strong>Environnement technique : </strong>{env}</p>
+	{/if}
 </div>
 
 <style>
@@ -41,6 +47,15 @@
 	.company {
 		margin: 0 0 5px;
 		font-weight: 600;
+	}
+
+	.context,
+	.env {
+		margin: 0 0 5px;
+	}
+
+	.env {
+		font-size: var(--fontSize-sm);
 	}
 
 	.list {

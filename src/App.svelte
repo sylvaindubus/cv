@@ -24,7 +24,7 @@
 	<section class="experiences">
 		<h2 class="sectionTitle big">{labels.experienceTitle}</h2>
 		{#each data.experiences as exp}
-			<Experience title={exp.title} date={exp.date} company={exp.company} points={exp.points} />
+			<Experience title={exp.title} date={exp.date} company={exp.company} context={exp.context} points={exp.points} env={exp.env} />
 		{/each}
 	</section>
 	<section class="diplomas">
@@ -94,7 +94,7 @@
 			display: flex;
 			flex-flow: column wrap;
 			max-width: 900px;
-			max-height: 1600px;
+			max-height: 1800px;
 			margin: 0 auto;
 			padding: 0;
 			background: var(--background-column) no-repeat;
