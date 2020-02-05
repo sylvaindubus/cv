@@ -58,13 +58,13 @@
 
 	.intro {
 		margin: 0 -20px;
-		background: var(--background-column);
+		background-color: var(--color-lightBackground);
 	}
 
 	.social {
 		margin: 0 -20px;
 		padding: 10px;
-		background: var(--background-column);
+		background-color: var(--color-lightBackground);
 	}
 
 	.sectionTitle {
@@ -97,8 +97,7 @@
 			max-height: 1800px;
 			margin: 0 auto;
 			padding: 0;
-			background: var(--background-column) no-repeat;
-			background-size: var(--width-column) 100%;
+			background-color: var(--color-lightBackground);
 		}
 
 		.wrapper > * {
@@ -118,6 +117,7 @@
 		.experiences,
 		.diplomas {
 			width: calc(100% - var(--width-column));
+			background-color: #fff;
 		}
 
 		.intro {
@@ -138,7 +138,6 @@
 
 		.hobbies {
 			order: 5;
-			margin-bottom: 10px;
 		}
 
 		.experiences {
@@ -147,7 +146,6 @@
 
 		.diplomas {
 			order: 7;
-			margin-bottom: 10px;
 		}
 
 		.intro::after,

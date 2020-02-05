@@ -1,10 +1,10 @@
 :root {
 	--width-column: 260px;
-	--background-column:  url('/images/bg-column.png');
 
 	--color-main: #ff3e00;
 	--color-text: #333;
 	--color-white: #fff;
+	--color-lightBackground: #f4f4f4;
 
 	--fontSize-xl: 1.6em;
 	--fontSize-lg: 1.3em;
