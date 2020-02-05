@@ -1,11 +1,13 @@
 {
 	"name": "Sylvain Dubus",
 	"status": "Développeur web full-stack",
-	"yearOfExperience": 10,
+	"years": 10,
+	"yearsLabel": "ans d'expérience",
 	"age": 30,
 	"mail": "svn.dbs@gmail.com",
 	"linkedin": "https://www.linkedin.com/in/sylvain-dubus-b10b862a",
 	"github": "https://github.com/sylvaindubus",
+	"skillsTitle": "Compétences techniques",
 	"skillGroups": [
 		{
 			"title": "Développement front-end",
@@ -44,6 +46,7 @@
 			]
 		}
 	],
+	"languagesTitle": "Langues",
 	"languages": [
 		{
 			"name": "Français",
@@ -56,7 +59,9 @@
 			"level": "Niveau scolaire"
 		}
 	],
+	"hobbiesTitle": "Dans la vraie vie",
 	"hobbies": "La course à pied, les road-trips, l'escrime et la reconstitution médiévale, les nouvelles technologies, le fromage, la bière.",
+	"diplomasTitle": "Formation",
 	"diplomas": [
 		{
 			"title": "Master en ingénierie informatique",
@@ -72,6 +77,7 @@
 			"subtitle": "Lycée Charles de Gaulle à Compiègne - 2007"
 		}
 	],
+	"experiencesTitle": "Expériences",
 	"experiences": [
 		{
 			"title": "Lead développeur front-end (Freelance)",
@@ -143,5 +149,8 @@
 			],
 			"env": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, SVN"
 		}
-	]
+	],
+	"expContextLabel": "Contexte",
+	"expEnvLabel": "Environnement technique",
+	"switchLangLabel": "English version"
 }

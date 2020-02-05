@@ -1,5 +1,5 @@
 <script>
-	export let title, date, company, context, points, env;
+	export let title, date, company, context, points, env, contextLabel, envLabel;
 </script>
 
 <div class="wrapper">
@@ -9,7 +9,7 @@
 	</header>
 	<p class="company">{company || ''}</p>
 	{#if context}
-		<p class="context"><strong>Contexte : </strong>{context}</p>
+		<p class="context"><strong>{contextLabel} : </strong>{context}</p>
 	{/if}
 	<ul class="list">
 	{#each points as point}
@@ -17,7 +17,7 @@
 	{/each}
 	</ul>
 	{#if env}
-		<p class="env"><strong>Environnement technique : </strong>{env}</p>
+		<p class="env"><strong>{envLabel} : </strong>{env}</p>
 	{/if}
 </div>
 

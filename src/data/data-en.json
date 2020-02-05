@@ -1,0 +1,156 @@
+{
+	"name": "Sylvain Dubus",
+	"status": "Full-Stack Developer",
+	"years": 10,
+	"yearsLabel": "years of experience",
+	"age": 30,
+	"mail": "svn.dbs@gmail.com",
+	"linkedin": "https://www.linkedin.com/in/sylvain-dubus-b10b862a",
+	"github": "https://github.com/sylvaindubus",
+	"skillsTitle": "Technical skills",
+	"skillGroups": [
+		{
+			"title": "Front-end development",
+			"skills": [
+				"React", "Svelte", "JavaScript ES6/7", "jQuery", "HTML5", "CSS3", "PostCSS", "SaSS"
+			]
+		}, {
+			"title": "Back-end development",
+			"skills": [
+				"PHP", "Go", "Python", "NodeJS", "API REST & GraphQL"
+			]
+		}, {
+			"title": "Librairies",
+			"skills": [
+				"Highcharts", "Mapbox", "Three.JS", "wkhtmltopdf", "PHPExcel", "Robo PHP"
+			]
+		}, {
+			"title": "Frameworks & CMS",
+			"skills": [
+				"Next.js", "CodeIgniter", "WordPress", "WooCommerce", "Prestashop"
+			]
+		}, {
+			"title": "Database",
+			"skills": [
+				"MySQL", "MariaDB", "Postgre", "SQLite"
+			]
+		}, {
+			"title": "Development Tools & Monitoring",
+			"skills": [
+				"Webpack", "Git", "Grunt", "Gulp", "Jest", "Intern", "Codeception", "JIRA", "Redmine"
+			]
+		}, {
+			"title": "Environnment",
+			"skills": [
+				"Docker", "Gitlab CI", "Bash", "Debian", "Ubuntu", "Apache", "Nginx"
+			]
+		}
+	],
+	"languagesTitle": "Languages",
+	"languages": [
+		{
+			"name": "French",
+			"level": "Native Language"
+		}, {
+			"name": "English",
+			"level": "Good Skills"
+		}, {
+			"name": "Spanish",
+			"level": "Basis knowledge"
+		}
+	],
+	"hobbiesTitle": "Hobbies",
+	"hobbies": "Running, road trips, fencing and medieval reconstitution, new technologies, cheese, beer.",
+	"diplomasTitle": "Education",
+	"diplomas": [
+		{
+			"title": "Master in computer engineering",
+			"subtitle": "SUPINFO Paris - 2013 à 2015"
+		}, {
+			"title": "Professional license in computer systems and software",
+			"subtitle": "IUT Fontainebleau - 2009 à 2010"
+		}, {
+			"title": "DUT Informatique (Two years university degree in application development)",
+			"subtitle": "IUT Amiens - 2007 à 2009"
+		}, {
+			"title": "Baccalauréat S (French science high-school diploma)",
+			"subtitle": "Lycée Charles de Gaulle à Compiègne - 2007"
+		}
+	],
+	"experiencesTitle": "Experiences",
+	"experiences": [
+		{
+			"title": "Lead Front-end developer (Freelance)",
+			"date": "Jun 2018 - Feb 2020",
+			"company": "PRISMA MEDIA - First press group in France",
+			"context": "within a team of fifteen developers, front-end technical referent on a pole of 3 developers on high traffic projects in Symfony and applications in React",
+			"points": [
+				"Technical choice on new features: development method, technologies used",
+				"Project management and story point estimations",
+				"Integration of Sketch layout in collaboration with UX team",
+				"Integration of Twig templates into functional components",
+				"React front-end development on new applications and native JavaScript on TMA applications",
+				"Optimization of existing performance, code refactoring, implementation of tools for continuous integration and deployment",
+				"Implementation of unit and functional tests, code review and pair programming",
+				"Adding code quality and monitoring tools",
+				"Versioning with Git"
+			],
+			"env": "HTML, CSS (PostCSS), JavaScript (ES6/7), React, Next.js, Webpack, Symfony, Twig, GraphQL, Jest, Intern, Speedcurve, GitLab, Redmine, Kanban"
+		}, {
+			"title": "Full-Stack Lead developer (CDI)",
+			"date": "Sept 2015 - jun 2018",
+			"company": "GLOBALIS - Digital service company specializing in PHP and WordPress platforms",
+			"context": "in a company of around thirty developers, lead developer of a team of 4 people on extranets for external companies",
+			"points": [
+				"Technical and functional conception on new project, choice of technologies used",
+				"Project management, cost estimations, presentation of new features, organization of the team's work on each sprint, technical training of the team's junior profiles",
+				"Implementation of solutions in direct contact with the product owners of client companies",
+				"React front-end development on new projects, full-stack development on TMA applications",
+				"Deployment of applications, improvement of backups of sensitive data",
+				"Implementation of the infrastructure of certain projects with Docker",
+				"Addition of unit and functional tests",
+				"Versioning with Git"
+			],
+			"env": "HTML, CSS (SaSS), JavaScript (ES6/7), React, Webpack, PHP, MySQL, Docker, Codeception, Scrum"
+		}, {
+			"title": "Micro-enterprise and volunteer developer",
+			"date": "Since July 2015",
+			"context": "development of several applications for different customers in France",
+			"points": [
+				"Showcase website for the sports association OSM 1453 at l'Isle-Adam",
+				"Showcase website for a high-end real estate agency Barnes Immeubles",
+				"Mapping application for advertising management for the company GreenPub",
+				"Online shop for the Japanese restaurant IT'SUSHI",
+				"Showcase site with modular back office for the CoAndCo agency"
+			],
+			"env": "HTML, CSS (SaSS), JavaScript (ES6), React, jQuery, Webpack, WordPress, WooCommerce, PHP, CodeIgniter, MySQL, MapBox, PHPExcel, GitLab"
+		}, {
+			"title": "Full-Stack Developer (covered by GLOBALIS)",
+			"date": "Feb 2011 - Sept 2015",
+			"company": "PSA GROUPE - French car manufacturer",
+			"context": "within a team of ten developers and web designers, full-stack developer on several project types: web application, application for interactive terminal, management intranet, online store, image editing tool",
+			"points": [
+				"Technical conception on new fonctionnalities, choice on the technical environment of new projects",
+				"Technical design on new features, choice on the technical environment of new projects",
+				"Management and training of a junior developer",
+				"Integration of Photoshop layout with a webdesigner team",
+				"Full-stack development with PHP and jQuery",
+				"Implementation of an intranet activity management tool"
+			],
+			"env": "HTML, CSS, JavaScript, jQuery, PHP, CodeIgniter, Prestashop, MySQL, Python, TCPDF"
+		}, {
+			"title": "Full-Stack Developer (apprenticeship)",
+			"date": "Sept 2009 - Oct 2010",
+			"company": "ENJOYOURPARIS - Social network on tourism in Paris",
+			"points": [
+				"Full-stack development in PHP and jQuery on the company's web application",
+				"Technical conception on new fonctionnalities",
+				"Autonomous work on the technical part"
+			],
+			"env": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, SVN"
+		}
+	],
+	"expContextLabel": "Context",
+	"expEnvLabel": "Technical environment",
+	"switchLangLabel": "Version française"
+}

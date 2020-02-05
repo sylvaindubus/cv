@@ -1,12 +1,12 @@
 <script>
-	export let name, status, yearOfExperience;
+	export let name, status, years, yearsLabel;
 </script>
 
 <div class="wrapper">
 	<img class="photo" src="images/photo.jpg" alt="" />
 	<h1 class="name">{name}</h1>
 	<p class="status">{status}</p>
-	<p class="experience">{yearOfExperience} ans d'expérience</p>
+	<p class="experience">{years} {yearsLabel}</p>
 </div>
 
 <style>

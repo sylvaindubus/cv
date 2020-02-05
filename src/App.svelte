@@ -2,9 +2,6 @@
 	import 'src/styles/vars.css';
 	import 'src/styles/global.css';
 
-	import data from 'src/data/cv.json';
-	import labels from 'src/data/labels.json';
-
 	import Intro from 'src/components/Intro.svelte';
 	import Social from 'src/components/Social.svelte';
 	import SkillGroup from 'src/components/SkillGroup.svelte';
@@ -12,45 +9,68 @@
 	import Experience from 'src/components/Experience.svelte';
 	import Diploma from 'src/components/Diploma.svelte';
 	import Hobbies from 'src/components/Hobbies.svelte';
+
+	import { getLangFromUrl, getLangFromStorage, setLangToStorage } from 'src/helpers/lang.js';
+	import { getData } from 'src/helpers/data.js';
+
+	// Try to find the best language
+	let lang = getLangFromUrl() || getLangFromStorage() || 'fr';
+	let data = getData(lang);
+
+	const switchLang = () => {
+		lang = lang === 'fr' ? 'en' : 'fr';
+		data = getData(lang);
+		setLangToStorage(lang);
+	}
 </script>
 
 <main class="wrapper">
-	<section class="intro">
-		<Intro name="{data.name}" status="{data.status}" yearOfExperience="{data.yearOfExperience}" />
+	<section class="section intro">
+		<Intro name="{data.name}" status="{data.status}" years="{data.years}" yearsLabel="{data.yearsLabel}" />
 	</section>
-	<section class="social">
+	<section class="section social">
 		<Social mail="{data.mail}" linkedin="{data.linkedin}" github="{data.github}" />
 	</section>
-	<section class="experiences">
-		<h2 class="sectionTitle big">{labels.experienceTitle}</h2>
+	<section class="section experiences">
+		<h2 class="sectionTitle big">{data.experiencesTitle}</h2>
 		{#each data.experiences as exp}
-			<Experience title={exp.title} date={exp.date} company={exp.company} context={exp.context} points={exp.points} env={exp.env} />
+			<Experience 
+				title={exp.title}
+				date={exp.date}
+				company={exp.company}
+				context={exp.context}
+				points={exp.points}
+				env={exp.env}
+				contextLabel={data.expContextLabel}
+				envLabel={data.expEnvLabel} />
 		{/each}
 	</section>
-	<section class="diplomas">
-		<h2 class="sectionTitle big">{labels.diplomasTitle}</h2>
+	<section class="section diplomas">
+		<h2 class="sectionTitle big">{data.diplomasTitle}</h2>
 		{#each data.diplomas as diploma}
 			<Diploma title={diploma.title} subtitle={diploma.subtitle} />
 		{/each}
 	</section>
-	<section class="skills">
-		<h2 class="sectionTitle">{labels.skillsTitle}</h2>
+	<section class="section skills">
+		<h2 class="sectionTitle">{data.skillsTitle}</h2>
 		{#each data.skillGroups as skillGroup}
 			<SkillGroup title={skillGroup.title} skills={skillGroup.skills} />
 		{/each}
 	</section>
-	<section class="languages">
-		<h2 class="sectionTitle">{labels.languageTitle}</h2>
+	<section class="section languages">
+		<h2 class="sectionTitle">{data.languagesTitle}</h2>
 		<Languages languages={data.languages} />
 	</section>
-	<section class="hobbies">
-		<h2 class="sectionTitle">{labels.hobbiesTitle}</h2>
+	<section class="section hobbies">
+		<h2 class="sectionTitle">{data.hobbiesTitle}</h2>
 		<Hobbies hobbies={data.hobbies} />
 	</section>
+	<button class="langButton" on:click={switchLang}>{data.switchLangLabel}</button>
 </main>
 
 <style>
 	.wrapper {
+		position: relative;
 		align-items: top;
 		min-height: 100%;
 		padding: 0 20px 20px;
@@ -65,6 +85,19 @@
 		margin: 0 -20px;
 		padding: 10px;
 		background-color: var(--color-lightBackground);
+	}
+
+	.langButton {
+		position: absolute;
+		top: 10px;
+		right: 20px;
+		padding: 0;
+		border: none;
+		background: none;
+		text-decoration: underline;
+		color: var(--color-lightText);
+		font-size: var(--fontSize-sm);
+		cursor: pointer;
 	}
 
 	.sectionTitle {
@@ -100,7 +133,7 @@
 			background-color: var(--color-lightBackground);
 		}
 
-		.wrapper > * {
+		.wrapper > .section {
 			padding: 0 20px;
 			box-sizing: border-box;
 		}
