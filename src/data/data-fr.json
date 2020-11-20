@@ -3,7 +3,7 @@
 	"status": "Développeur web full-stack",
 	"years": 10,
 	"yearsLabel": "ans d'expérience",
-	"age": 30,
+	"age": 31,
 	"mail": "svn.dbs@gmail.com",
 	"linkedin": "https://www.linkedin.com/in/sylvain-dubus-b10b862a",
 	"github": "https://github.com/sylvaindubus",
@@ -12,22 +12,22 @@
 		{
 			"title": "Développement front-end",
 			"skills": [
-				"React", "Svelte", "JavaScript ES6/7", "jQuery", "HTML5", "CSS3", "PostCSS", "SaSS"
+				"React", "Svelte", "JavaScript ES6/7", "TypeScript", "jQuery", "HTML5", "CSS3", "PostCSS", "SaSS"
 			]
 		}, {
 			"title": "Développement back-end",
 			"skills": [
-				"PHP", "Go", "Python", "NodeJS", "API REST & GraphQL"
+				"PHP", "Python", "NodeJS", "GraphQL, Sequelize, Rest"
 			]
 		}, {
 			"title": "Librairies",
 			"skills": [
-				"Highcharts", "Mapbox", "Three.JS", "wkhtmltopdf", "PHPExcel", "Robo PHP"
+				"Highcharts", "Mapbox", "Apollo", "Three.JS", "wkhtmltopdf", "PHPExcel", "Robo PHP"
 			]
 		}, {
 			"title": "Frameworks & CMS",
 			"skills": [
-				"Next.js", "CodeIgniter", "WordPress", "WooCommerce", "Prestashop"
+				"Next.js", "React Admin", "CodeIgniter", "WordPress", "WooCommerce", "Prestashop"
 			]
 		}, {
 			"title": "Base de données",
@@ -81,7 +81,7 @@
 	"experiences": [
 		{
 			"title": "Lead développeur front-end (Freelance)",
-			"date": "Juin 2018 - Fév 2020",
+			"date": "Juin 2018 - Mai 2020",
 			"company": "PRISMA MEDIA - Premier groupe de presse en France",
 			"context": "au sein d'une équipe d'une quinzaine de développeurs, référent technique front-end sur un pôle de 3 développeurs sur des projets à fort trafic en Symfony et applications en React",
 			"points": [

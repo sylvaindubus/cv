@@ -66,9 +66,9 @@
 
 	@media (min-width: 768px) {
 		.header {
-			flex-direction: row;	
+			flex-direction: row;
 			align-items: center;
-			justify-content: space-between;	
+			justify-content: space-between;
 		}
 	}
 </style>
