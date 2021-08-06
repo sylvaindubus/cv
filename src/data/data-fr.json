@@ -3,7 +3,7 @@
 	"status": "Développeur web full-stack",
 	"years": 10,
 	"yearsLabel": "ans d'expérience",
-	"age": 31,
+	"age": 32,
 	"mail": "svn.dbs@gmail.com",
 	"linkedin": "https://www.linkedin.com/in/sylvain-dubus-b10b862a",
 	"github": "https://github.com/sylvaindubus",
@@ -12,17 +12,17 @@
 		{
 			"title": "Développement front-end",
 			"skills": [
-				"React", "Svelte", "JavaScript ES6/7", "TypeScript", "jQuery", "HTML5", "CSS3", "PostCSS", "SaSS"
+				"React", "Svelte", "Vue.js", "JavaScript ES6/7", "TypeScript", "jQuery", "HTML5", "CSS3", "PostCSS", "SaSS"
 			]
 		}, {
 			"title": "Développement back-end",
 			"skills": [
-				"PHP", "Python", "NodeJS", "GraphQL, Sequelize, Rest"
+				"PHP", "Python", "Node.js", "Go (base)", "Rust (base)", "API REST & GraphQL"
 			]
 		}, {
 			"title": "Librairies",
 			"skills": [
-				"Highcharts", "Mapbox", "Apollo", "Three.JS", "wkhtmltopdf", "PHPExcel", "Robo PHP"
+				"Apollo GraphQL", "Sequelize", "Highcharts", "Mapbox", "Three.JS", "wkhtmltopdf", "PHPExcel", "Robo PHP"
 			]
 		}, {
 			"title": "Frameworks & CMS",
@@ -32,17 +32,17 @@
 		}, {
 			"title": "Base de données",
 			"skills": [
-				"MySQL", "MariaDB", "Postgre", "SQLite"
+				"MySQL", "MariaDB", "PostgreSQL", "SQLite"
 			]
 		}, {
 			"title": "Outils et suivi de développement",
 			"skills": [
-				"Webpack", "Git", "Grunt", "Gulp", "Jest", "Intern", "Codeception", "JIRA", "Redmine"
+				"Webpack", "Git", "Grunt", "Gulp", "Jest", "Playwright", "Codeception", "JIRA", "Redmine"
 			]
 		}, {
 			"title": "Environnement",
 			"skills": [
-				"Docker", "Gitlab CI", "Bash", "Debian", "Ubuntu", "Apache", "Nginx"
+				"Docker", "Gitlab CI", "Bash", "Debian", "Apache", "Nginx", "Windows/Linux/macOS"
 			]
 		}
 	],
@@ -56,7 +56,7 @@
 			"level": "Courant"
 		}, {
 			"name": "Espagnol",
-			"level": "Niveau scolaire"
+			"level": "Niveau de base"
 		}
 	],
 	"hobbiesTitle": "Dans la vraie vie",
@@ -80,8 +80,23 @@
 	"experiencesTitle": "Expériences",
 	"experiences": [
 		{
+			"title": "Chief Technical Officer (start-up en binôme)",
+			"date": "Juin 2020 - Aujourd'hui",
+			"company": "",
+			"context": "création d'une start-up en binôme sur la mise en place solution pour l'hôtellerie",
+			"points": [
+				"Choix technique sur les nouvelles fonctionnalités : méthode de développement, technologies utilisées",
+				"Développement en binôme sur un projet comprenant plusieurs modules : front-end, back-end, API",
+				"Conception avec Figma, intégration et développement par composants",
+				"Installation de l'infrastructure sur une stack basée sur GitLab CI et Docker",
+				"Mise en place de tests fonctionnels sur l'API, de tests d'acceptation sur le front-end, revue de code et pair programing",
+				"Versioning avec Git"
+			],
+			"env": "HTML, CSS (avec Styled Components), React, Next.js, React Admin, GraphQL (avec Apollo), Node, Sequelize, Jest, Playwright, Docker, GitLab CI"
+		},
+		{
 			"title": "Lead développeur front-end (Freelance)",
-			"date": "Juin 2018 - Mai 2020",
+			"date": "Juin 2018 - Juin 2020",
 			"company": "PRISMA MEDIA - Premier groupe de presse en France",
 			"context": "au sein d'une équipe d'une quinzaine de développeurs, référent technique front-end sur un pôle de 3 développeurs sur des projets à fort trafic en Symfony et applications en React",
 			"points": [

@@ -3,7 +3,7 @@
 	"status": "Full-Stack Developer",
 	"years": 10,
 	"yearsLabel": "years of experience",
-	"age": 31,
+	"age": 32,
 	"mail": "svn.dbs@gmail.com",
 	"linkedin": "https://www.linkedin.com/in/sylvain-dubus-b10b862a",
 	"github": "https://github.com/sylvaindubus",
@@ -12,17 +12,17 @@
 		{
 			"title": "Front-end development",
 			"skills": [
-				"React", "Svelte", "JavaScript ES6/7", "TypeScript", "jQuery", "HTML5", "CSS3", "PostCSS", "SaSS"
+				"React", "Svelte", "Vue.js", "JavaScript ES6/7", "TypeScript", "jQuery", "HTML5", "CSS3", "PostCSS", "SaSS"
 			]
 		}, {
 			"title": "Back-end development",
 			"skills": [
-				"PHP", "Python", "NodeJS", "GraphQL, Sequelize, Rest"
+				"PHP", "Python", "Node.js", "Go (base)", "Rust (base)", "API REST & GraphQL"
 			]
 		}, {
 			"title": "Librairies",
 			"skills": [
-				"Highcharts", "Mapbox", "Apollo", "Three.JS", "wkhtmltopdf", "PHPExcel", "Robo PHP"
+				"Apollo GraphQL", "Sequelize", "Highcharts", "Mapbox", "Three.JS", "wkhtmltopdf", "PHPExcel", "Robo PHP"
 			]
 		}, {
 			"title": "Frameworks & CMS",
@@ -32,17 +32,17 @@
 		}, {
 			"title": "Database",
 			"skills": [
-				"MySQL", "MariaDB", "Postgre", "SQLite"
+				"MySQL", "MariaDB", "PostgreSQL", "SQLite"
 			]
 		}, {
 			"title": "Development Tools & Monitoring",
 			"skills": [
-				"Webpack", "Git", "Grunt", "Gulp", "Jest", "Intern", "Codeception", "JIRA", "Redmine"
+				"Webpack", "Git", "Grunt", "Gulp", "Jest", "Playwright", "Codeception", "JIRA", "Redmine"
 			]
 		}, {
 			"title": "Environnment",
 			"skills": [
-				"Docker", "Gitlab CI", "Bash", "Debian", "Ubuntu", "Apache", "Nginx"
+				"Docker", "Gitlab CI", "Bash", "Debian", "Apache", "Nginx", "Windows/Linux/macOS"
 			]
 		}
 	],
@@ -65,20 +65,35 @@
 	"diplomas": [
 		{
 			"title": "Master in computer engineering",
-			"subtitle": "SUPINFO Paris - 2013 à 2015"
+			"subtitle": "SUPINFO Paris - from 2013 to 2015"
 		}, {
 			"title": "Professional license in computer systems and software",
-			"subtitle": "IUT Fontainebleau - 2009 à 2010"
+			"subtitle": "IUT Fontainebleau - from 2009 to 2010"
 		}, {
 			"title": "DUT Informatique (Two years university degree in application development)",
-			"subtitle": "IUT Amiens - 2007 à 2009"
+			"subtitle": "IUT Amiens - from 2007 to 2009"
 		}, {
 			"title": "Baccalauréat S (French science high-school diploma)",
-			"subtitle": "Lycée Charles de Gaulle à Compiègne - 2007"
+			"subtitle": "Lycée Charles de Gaulle at Compiègne - 2007"
 		}
 	],
 	"experiencesTitle": "Experiences",
 	"experiences": [
+		{
+			"title": "Chief Technical Officer (start-up)",
+			"date": "Juin 2020 - Today",
+			"company": "",
+			"context": "in a two-person start-up, development of a full-featured solution for hostels and resorts",
+			"points": [
+				"Technical choice on new features: development method, technologies used",
+				"Development in pairs on a multiple component project: front-end, back-end, API",
+				"Page sketching with Figma, integration and component-driven developement",
+				"Installation of an infrastructure based on GitLab CI and Docker",
+				"Test coverage on the API and front-end, code review pair programing",
+				"Versioning with Git"
+			],
+			"env": "HTML, CSS (with Styled Components), React, Next.js, React Admin, GraphQL (with Apollo), Node, Sequelize, Jest, Playwright, Docker, GitLab CI"
+		},
 		{
 			"title": "Lead Front-end developer (Freelance)",
 			"date": "Jun 2018 - May 2020",

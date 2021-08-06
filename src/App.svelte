@@ -127,7 +127,7 @@
 			display: flex;
 			flex-flow: column wrap;
 			max-width: 900px;
-			max-height: 2500px;
+			max-height: 2200px;
 			margin: 0 auto;
 			padding: 0;
 			background-color: var(--color-lightBackground);
