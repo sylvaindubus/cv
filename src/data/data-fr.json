@@ -11,39 +11,31 @@
 	"skillGroups": [
 		{
 			"title": "Développement front-end",
-			"skills": [
-				"React", "Svelte", "Vue.js", "JavaScript ES6/7", "TypeScript", "jQuery", "HTML5", "CSS3", "PostCSS", "SaSS"
-			]
-		}, {
+			"skills": ["React", "TypeScript", "Svelte", "Vue.js", "JavaScript ES6/7", "jQuery", "HTML5", "CSS3", "PostCSS", "SaSS"]
+		},
+		{
 			"title": "Développement back-end",
-			"skills": [
-				"PHP", "Python", "Node.js", "Go (base)", "Rust (base)", "API REST & GraphQL"
-			]
-		}, {
+			"skills": ["PHP", "Python", "Node.js", "Go (base)", "Rust (base)", "API REST & GraphQL"]
+		},
+		{
 			"title": "Librairies",
-			"skills": [
-				"Apollo GraphQL", "Sequelize", "Highcharts", "Mapbox", "Three.JS", "wkhtmltopdf", "PHPExcel", "Robo PHP"
-			]
-		}, {
+			"skills": ["Apollo GraphQL", "Sequelize", "Highcharts", "Mapbox", "Three.JS", "wkhtmltopdf", "PHPExcel", "Robo PHP"]
+		},
+		{
 			"title": "Frameworks & CMS",
-			"skills": [
-				"Next.js", "React Admin", "CodeIgniter", "WordPress", "WooCommerce", "Prestashop"
-			]
-		}, {
+			"skills": ["Next.js", "React Admin", "CodeIgniter", "WordPress", "WooCommerce", "Prestashop"]
+		},
+		{
 			"title": "Base de données",
-			"skills": [
-				"MySQL", "MariaDB", "PostgreSQL", "SQLite"
-			]
-		}, {
+			"skills": ["MySQL", "MariaDB", "PostgreSQL", "SQLite"]
+		},
+		{
 			"title": "Outils et suivi de développement",
-			"skills": [
-				"Webpack", "Git", "Grunt", "Gulp", "Jest", "Playwright", "Codeception", "JIRA", "Redmine"
-			]
-		}, {
+			"skills": ["Webpack", "Git", "Grunt", "Gulp", "Jest", "Playwright", "Cypress", "Codeception", "JIRA", "Redmine"]
+		},
+		{
 			"title": "Environnement",
-			"skills": [
-				"Docker", "Gitlab CI", "Bash", "Debian", "Apache", "Nginx", "Windows/Linux/macOS"
-			]
+			"skills": ["Docker", "Gitlab CI", "Bash", "Debian", "Apache", "Nginx", "Windows/Linux/macOS"]
 		}
 	],
 	"languagesTitle": "Langues",
@@ -51,10 +43,12 @@
 		{
 			"name": "Français",
 			"level": "Langue maternelle"
-		}, {
+		},
+		{
 			"name": "Anglais",
 			"level": "Courant"
-		}, {
+		},
+		{
 			"name": "Espagnol",
 			"level": "Niveau de base"
 		}
@@ -66,13 +60,16 @@
 		{
 			"title": "Master en ingénierie informatique",
 			"subtitle": "SUPINFO Paris - 2013 à 2015"
-		}, {
+		},
+		{
 			"title": "Licence pro en systèmes informatiques et logiciels",
 			"subtitle": "IUT Fontainebleau - 2009 à 2010"
-		}, {
+		},
+		{
 			"title": "DUT Informatique",
 			"subtitle": "IUT Amiens - 2007 à 2009"
-		}, {
+		},
+		{
 			"title": "Baccalauréat S",
 			"subtitle": "Lycée Charles de Gaulle à Compiègne - 2007"
 		}
@@ -80,8 +77,22 @@
 	"experiencesTitle": "Expériences",
 	"experiences": [
 		{
+			"title": "Software Engineer (CDI)",
+			"date": "Septembre 2021 - Aujourd'hui",
+			"company": "KDS - An American Express Global Business Travel company",
+			"context": "développement d'une solution de gestion de notes de frais et voyages d'affaires pour les PME",
+			"points": [
+				"Travail au sein d'une équipe de 12 personnes, dont 3 développeurs front-end",
+				"Développement front-end React/Typescript sur une application existante de grande ampleur",
+				"Maintenance et développement de l'application mobile en React Native",
+				"Mise en place de tests unitaires et fonctionnels",
+				"Versioning avec Git, revue de code et pair programing"
+			],
+			"env": "HTML, CSS, React, Redux, Typescript, React Native, Cypress"
+		},
+		{
 			"title": "Chief Technical Officer (start-up en binôme)",
-			"date": "Juin 2020 - Aujourd'hui",
+			"date": "Juin 2020 - Août 2021",
 			"company": "",
 			"context": "création d'une start-up en binôme sur la mise en place solution pour l'hôtellerie",
 			"points": [
@@ -111,7 +122,8 @@
 				"Versioning avec Git"
 			],
 			"env": "HTML, CSS (PostCSS), JavaScript (ES6/7), React, Next.js, Webpack, Symfony, Twig, GraphQL, Jest, Intern, Speedcurve, GitLab, Redmine, Kanban"
-		}, {
+		},
+		{
 			"title": "Lead développeur full-stack (CDI)",
 			"date": "Sept 2015 - Juin 2018",
 			"company": "GLOBALIS - ESN spécialisée sur les plate-formes PHP et WordPress",
@@ -127,7 +139,8 @@
 				"Versioning avec Git"
 			],
 			"env": "HTML, CSS (SaSS), JavaScript (ES6/7), React, Webpack, PHP, MySQL, Docker, Codeception, Scrum"
-		}, {
+		},
+		{
 			"title": "Développeur en micro-entreprise et en bénévole",
 			"date": "Depuis juillet 2015",
 			"context": "développement de plusieurs applications pour différents clients",
@@ -139,7 +152,8 @@
 				"Site vitrine avec back-office modulaire pour l'agence CoAndCo"
 			],
 			"env": "HTML, CSS (SaSS), JavaScript (ES6), React, jQuery, Webpack, WordPress, WooCommerce, PHP, CodeIgniter, MySQL, MapBox, PHPExcel, GitLab"
-		}, {
+		},
+		{
 			"title": "Développeur full-stack (régie pour GLOBALIS)",
 			"date": "Fév 2011 - Sept 2015",
 			"company": "GROUPE PSA - Constructeur automobile français",
@@ -153,15 +167,12 @@
 				"Mise en place d’un outil de type intranet de gestion d’activité"
 			],
 			"env": "HTML, CSS, JavaScript, jQuery, PHP, CodeIgniter, Prestashop, MySQL, Python, TCPDF"
-		}, {
+		},
+		{
 			"title": "Développeur full-stack (alternance)",
 			"date": "Sept 2009 - Oct 2010",
 			"company": "ENJOYOURPARIS - Réseau social sur le tourisme à Paris",
-			"points": [
-				"Développement full-stack en PHP et jQuery sur l'application web de la société",
-				"Conception technique sur les nouvelles fonctionnalités",
-				"Travail en autonomie sur la partie technique"
-			],
+			"points": ["Développement full-stack en PHP et jQuery sur l'application web de la société", "Conception technique sur les nouvelles fonctionnalités", "Travail en autonomie sur la partie technique"],
 			"env": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, SVN"
 		}
 	],
