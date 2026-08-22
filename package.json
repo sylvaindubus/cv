@@ -1,6 +1,7 @@
 {
   "name": "cv",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
@@ -12,21 +13,18 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "@rollup/plugin-alias": "^3.0.0",
-    "@rollup/plugin-commonjs": "^11.0.0",
-    "@rollup/plugin-json": "^4.0.1",
-    "@rollup/plugin-node-resolve": "^6.0.0",
-    "rollup": "^1.20.0",
-    "rollup-plugin-livereload": "^1.0.0",
-    "rollup-plugin-postcss": "^2.0.3",
-    "rollup-plugin-svelte": "^5.0.3",
-    "rollup-plugin-terser": "^5.1.2",
-    "svelte": "^3.0.0"
+    "@rollup/plugin-alias": "^6.0.0",
+    "@rollup/plugin-commonjs": "^29.0.3",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^1.0.0",
+    "rollup": "^4.62.5",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-svelte": "^7.2.3",
+    "svelte": "^4.2.20"
   },
   "dependencies": {
-    "sirv-cli": "^1.0.14"
-  },
-  "optionalDependencies": {
-    "fsevents": "2.1.2"
+    "sirv-cli": "^3.0.1"
   }
 }

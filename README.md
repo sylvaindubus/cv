@@ -2,6 +2,8 @@
 
 This simple Curriculum Vitae project uses the awesome [Svelte](https://svelte.dev) framework.
 
+The app is currently living [here](https://cv.sylvain.xyz).
+
 Feel free to use it as you like.
 
 ## Get started

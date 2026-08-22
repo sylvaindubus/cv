@@ -1,12 +1,16 @@
 import path from 'path';
+import { fileURLToPath } from 'url';
+import { spawn } from 'child_process';
 import svelte from 'rollup-plugin-svelte';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import livereload from 'rollup-plugin-livereload';
-import { terser } from 'rollup-plugin-terser';
+import terser from '@rollup/plugin-terser';
 import json from '@rollup/plugin-json';
 import alias from '@rollup/plugin-alias';
 import postcss from 'rollup-plugin-postcss';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -20,13 +24,12 @@ export default {
 	},
 	plugins: [
 		svelte({
-			// enable run-time checks when not in production
-			dev: !production,
-			// we'll extract any component CSS out into
-			// a separate file — better for performance
-			css: css => {
-				css.write('public/build/bundle.css');
+			compilerOptions: {
+				// enable run-time checks when not in production
+				dev: !production
 			}
+			// component CSS is emitted as a virtual file and
+			// picked up by rollup-plugin-postcss below
 		}),
 
 		// If you have external dependencies installed from
@@ -63,7 +66,9 @@ export default {
       ]
 		}),
 
-		postcss()
+		postcss({
+			extract: 'bundle.css'
+		})
 	],
 	watch: {
 		clearScreen: false
@@ -78,7 +83,7 @@ function serve() {
 			if (!started) {
 				started = true;
 
-				require('child_process').spawn('npm', ['run', 'start', '--', '--dev'], {
+				spawn('npm', ['run', 'start', '--', '--dev'], {
 					stdio: ['ignore', 'inherit', 'inherit'],
 					shell: true
 				});
